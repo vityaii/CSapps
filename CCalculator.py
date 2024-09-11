@@ -1,8 +1,10 @@
+#Version 0.0.1 11.09.2024
+
 #Обьявление класса
 class CCalculator:
     def __init__(self, x, y):
-        self.x = 3
-        self.y = 2
+        self.x = 0  
+        self.y = 0
     
     def Sum(self):
         return self.x + self.y
